@@ -1,6 +1,8 @@
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour
 {
     [Header("Input Things")]
@@ -10,8 +12,9 @@ public class Player : MonoBehaviour
 
     [Header("Movement")]
     public float moveSpeed = 8f;
-    public float acceleration = 70f;
-    public float deceleration = 90f;
+    public float acceleration = 35f;
+    public float deceleration = 2f;
+    public float maxHorizontalSpeed = 25f;
 
     [Header("Jump Fields")]
     public float jumpForce = 14f;
@@ -20,29 +23,46 @@ public class Player : MonoBehaviour
     public float coyoteTime = 0.12f;
     public float jumpBufferTime = 0.12f;
 
+    [Header("Activate Fields")]
+    public float activateCooldown = 0.1f;
+    public float activateSpeedMult = 1.3f;
+
     [Header("Ground Check Stuff")]
     public Transform groundCheck;
     public float groundCheckRadius = 0.15f;
     public LayerMask groundLayer;
 
+    [Header("Other Things")]
+    public float levelSwitchVelocityMult = 0.5f;
+    public float wallBounceMult = 0.5f;
+    public float minWallBounceSpeed = 5f;
+    public float wallBounceControlLock = 0.12f;
+    public GameObject explodeParticle;
+
     Rigidbody2D rb;
     float moveInput;
     float coyoteTimer;
     float jumpBufferTimer;
+    float activateTimer;
+    float wallBounceTimer;
     bool grounded;
 
     void OnEnable()
     {
         moveAction.action.Enable();
         jumpAction.action.Enable();
+        activateAction.action.Enable();
         jumpAction.action.performed += OnJump;
+        activateAction.action.performed += OnActivate;
     }
 
     void OnDisable()
     {
         jumpAction.action.performed -= OnJump;
+        activateAction.action.performed -= OnActivate;
         moveAction.action.Disable();
         jumpAction.action.Disable();
+        activateAction.action.Disable();
     }
 
     void Awake()
@@ -68,6 +88,11 @@ public class Player : MonoBehaviour
         {
             jumpBufferTimer -= Time.deltaTime;
         }
+
+        if (activateTimer > 0f)
+        {
+            activateTimer -= Time.deltaTime;
+        }
     }
 
     void OnJump(InputAction.CallbackContext context)
@@ -75,19 +100,42 @@ public class Player : MonoBehaviour
         jumpBufferTimer = jumpBufferTime;
     }
 
+    void OnActivate(InputAction.CallbackContext context)
+    {
+        if (activateTimer <= 0f)
+        {
+            float direction = rb.linearVelocity.x == 0f ? (moveInput == 0f ? 1f : Mathf.Sign(moveInput)) : -Mathf.Sign(rb.linearVelocity.x);
+            float speed = Mathf.Abs(rb.linearVelocity.x) * activateSpeedMult;
+            rb.linearVelocityX = direction * Mathf.Min(speed, maxHorizontalSpeed);
+            activateTimer = activateCooldown;
+        }
+    }
+
     void FixedUpdate()
     {
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
-        float targetSpeed = moveInput * moveSpeed;
-        float rate = Mathf.Abs(moveInput) > 0.01f ? acceleration : deceleration;
-        float newX = Mathf.MoveTowards(rb.linearVelocity.x, targetSpeed, rate * Time.fixedDeltaTime);
+        if (wallBounceTimer > 0f)
+        {
+            wallBounceTimer -= Time.fixedDeltaTime;
+        }
+        else
+        {
+            if (Mathf.Abs(moveInput) > 0.01f)
+            {
+                rb.AddForce(Vector2.right * moveInput * acceleration, ForceMode2D.Force);
+            }
+            else
+            {
+                rb.AddForce(Vector2.right * -rb.linearVelocity.x * deceleration, ForceMode2D.Force);
+            }
+        }
 
-        rb.linearVelocity = new Vector2(newX, rb.linearVelocity.y);
+        rb.linearVelocityX = Mathf.Clamp(rb.linearVelocity.x, -maxHorizontalSpeed, maxHorizontalSpeed);
 
         if (jumpBufferTimer > 0f && coyoteTimer > 0f)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            rb.linearVelocityY = jumpForce;
             jumpBufferTimer = 0f;
             coyoteTimer = 0f;
         }
@@ -124,24 +172,44 @@ public class Player : MonoBehaviour
                 return;
             }
 
-            if (CameraManager.Instance.selectedCam != camBound.cameraObj)
+            if (LevelManager.Instance.selectedCam != LevelManager.Instance.cameras[LevelManager.Instance.currentLevel + 1])
             {
-                CameraManager.Instance.DisableAllCameras();
-                CameraManager.Instance.EnableCamera(camBound.cameraObj);
-
-                if (camBound.playerPos != null)
-                {
-                    transform.position = camBound.playerPos.position;
-                }
+                LevelManager.Instance.DisableAllCameras();
+                LevelManager.Instance.currentLevel++;
+                LevelManager.Instance.EnableCamera(LevelManager.Instance.cameras[LevelManager.Instance.currentLevel]);
+                transform.position = LevelManager.Instance.playerSpawnPoints[LevelManager.Instance.currentLevel].position;
+                rb.linearVelocityX *= levelSwitchVelocityMult;
             }
-            else if (camBound.secondaryCameraObj != null)
-            {
-                CameraManager.Instance.DisableAllCameras();
-                CameraManager.Instance.EnableCamera(camBound.secondaryCameraObj);
+        }
 
-                if (camBound.secondaryPlayerPos != null)
+        if (collision.CompareTag("KillObj"))
+        {
+            Die();
+        }
+    }
+
+    public void Die()
+    {
+        GameObject instantiatedExplosion = Instantiate(explodeParticle, transform.position, Quaternion.identity);
+        Destroy(instantiatedExplosion, 2f);
+        transform.position = LevelManager.Instance.playerSpawnPoints[LevelManager.Instance.currentLevel].position;
+        rb.linearVelocityX = 0f;
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Environment"))
+        {
+            ContactPoint2D contact = collision.GetContact(0);
+
+            if (Mathf.Abs(contact.normal.x) > 0.5f)
+            {
+                float impactSpeed = Mathf.Abs(collision.relativeVelocity.x);
+
+                if (impactSpeed >= minWallBounceSpeed)
                 {
-                    transform.position = camBound.secondaryPlayerPos.position;
+                    rb.linearVelocityX = contact.normal.x * impactSpeed * wallBounceMult;
+                    wallBounceTimer = wallBounceControlLock;
                 }
             }
         }

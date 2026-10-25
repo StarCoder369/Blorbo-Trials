@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - CamBound
+  - KillObj
+  - Environment
   layers:
   - Default
   - TransparentFX
