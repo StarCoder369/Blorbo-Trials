@@ -22,6 +22,6 @@ public class BackgroundSpawner : MonoBehaviour
 
     public void Spawn()
     {
-        Instantiate(spawningObject, spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity);
+        Instantiate(spawningObject, spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity, Camera.main.transform);
     }
 }

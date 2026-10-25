@@ -49,6 +49,7 @@ public class Player : MonoBehaviour
 
     public AudioSource jumpSound;
     public AudioSource dieSound;
+    public AudioSource portalSound;
 
     Rigidbody2D rb;
     PlayerAnimator playerAnimator;
@@ -280,6 +281,8 @@ public class Player : MonoBehaviour
         if (collision.CompareTag("CamBound"))
         {
             CameraBound camBound = collision.GetComponent<CameraBound>();
+
+            portalSound.Play();
 
             if (camBound == null || !camBound.boundsEnabled)
             {

@@ -227,12 +227,12 @@ TextureImporter:
       name: BackgroundGuys_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 659
-        width: 98
-        height: 117
+        x: 0
+        y: 651
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -249,12 +249,12 @@ TextureImporter:
       name: BackgroundGuys_1
       rect:
         serializedVersion: 2
-        x: 123
-        y: 659
-        width: 98
-        height: 117
+        x: 114
+        y: 651
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -271,12 +271,12 @@ TextureImporter:
       name: BackgroundGuys_2
       rect:
         serializedVersion: 2
-        x: 238
-        y: 659
-        width: 98
-        height: 117
+        x: 228
+        y: 651
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -293,12 +293,12 @@ TextureImporter:
       name: BackgroundGuys_3
       rect:
         serializedVersion: 2
-        x: 353
-        y: 659
-        width: 98
-        height: 117
+        x: 342
+        y: 651
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -315,12 +315,12 @@ TextureImporter:
       name: BackgroundGuys_4
       rect:
         serializedVersion: 2
-        x: 468
-        y: 659
-        width: 98
-        height: 117
+        x: 456
+        y: 651
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -337,12 +337,12 @@ TextureImporter:
       name: BackgroundGuys_5
       rect:
         serializedVersion: 2
-        x: 583
-        y: 659
-        width: 98
-        height: 117
+        x: 570
+        y: 651
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -359,12 +359,12 @@ TextureImporter:
       name: BackgroundGuys_6
       rect:
         serializedVersion: 2
-        x: 698
-        y: 659
-        width: 98
-        height: 117
+        x: 684
+        y: 651
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -381,12 +381,12 @@ TextureImporter:
       name: BackgroundGuys_7
       rect:
         serializedVersion: 2
-        x: 8
-        y: 528
-        width: 98
-        height: 117
+        x: 0
+        y: 521
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -403,12 +403,12 @@ TextureImporter:
       name: BackgroundGuys_8
       rect:
         serializedVersion: 2
-        x: 123
-        y: 528
-        width: 98
-        height: 117
+        x: 114
+        y: 521
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -425,12 +425,12 @@ TextureImporter:
       name: BackgroundGuys_9
       rect:
         serializedVersion: 2
-        x: 238
-        y: 528
-        width: 98
-        height: 117
+        x: 228
+        y: 521
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -447,12 +447,12 @@ TextureImporter:
       name: BackgroundGuys_10
       rect:
         serializedVersion: 2
-        x: 353
-        y: 528
-        width: 98
-        height: 117
+        x: 342
+        y: 521
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -469,12 +469,12 @@ TextureImporter:
       name: BackgroundGuys_11
       rect:
         serializedVersion: 2
-        x: 468
-        y: 528
-        width: 98
-        height: 117
+        x: 456
+        y: 521
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -491,12 +491,12 @@ TextureImporter:
       name: BackgroundGuys_12
       rect:
         serializedVersion: 2
-        x: 583
-        y: 528
-        width: 98
-        height: 117
+        x: 570
+        y: 521
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -513,12 +513,12 @@ TextureImporter:
       name: BackgroundGuys_13
       rect:
         serializedVersion: 2
-        x: 698
-        y: 528
-        width: 98
-        height: 117
+        x: 684
+        y: 521
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -535,12 +535,12 @@ TextureImporter:
       name: BackgroundGuys_14
       rect:
         serializedVersion: 2
-        x: 8
-        y: 397
-        width: 98
-        height: 117
+        x: 0
+        y: 391
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -557,12 +557,12 @@ TextureImporter:
       name: BackgroundGuys_15
       rect:
         serializedVersion: 2
-        x: 123
-        y: 397
-        width: 98
-        height: 117
+        x: 114
+        y: 391
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -579,12 +579,12 @@ TextureImporter:
       name: BackgroundGuys_16
       rect:
         serializedVersion: 2
-        x: 238
-        y: 397
-        width: 98
-        height: 117
+        x: 228
+        y: 391
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -601,12 +601,12 @@ TextureImporter:
       name: BackgroundGuys_17
       rect:
         serializedVersion: 2
-        x: 353
-        y: 397
-        width: 98
-        height: 117
+        x: 342
+        y: 391
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -623,12 +623,12 @@ TextureImporter:
       name: BackgroundGuys_18
       rect:
         serializedVersion: 2
-        x: 470
-        y: 397
-        width: 96
-        height: 118
+        x: 456
+        y: 391
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -645,12 +645,12 @@ TextureImporter:
       name: BackgroundGuys_19
       rect:
         serializedVersion: 2
-        x: 585
-        y: 397
-        width: 96
-        height: 118
+        x: 570
+        y: 391
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -667,12 +667,12 @@ TextureImporter:
       name: BackgroundGuys_20
       rect:
         serializedVersion: 2
-        x: 700
-        y: 397
-        width: 96
-        height: 118
+        x: 684
+        y: 391
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -689,12 +689,12 @@ TextureImporter:
       name: BackgroundGuys_21
       rect:
         serializedVersion: 2
-        x: 10
-        y: 266
-        width: 96
-        height: 118
+        x: 0
+        y: 261
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -711,12 +711,12 @@ TextureImporter:
       name: BackgroundGuys_22
       rect:
         serializedVersion: 2
-        x: 125
-        y: 266
-        width: 96
-        height: 118
+        x: 114
+        y: 261
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -733,12 +733,12 @@ TextureImporter:
       name: BackgroundGuys_23
       rect:
         serializedVersion: 2
-        x: 240
-        y: 266
-        width: 96
-        height: 118
+        x: 228
+        y: 261
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -755,12 +755,12 @@ TextureImporter:
       name: BackgroundGuys_24
       rect:
         serializedVersion: 2
-        x: 355
-        y: 266
-        width: 96
-        height: 118
+        x: 342
+        y: 261
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -777,12 +777,12 @@ TextureImporter:
       name: BackgroundGuys_25
       rect:
         serializedVersion: 2
-        x: 470
-        y: 266
-        width: 96
-        height: 118
+        x: 456
+        y: 261
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -799,12 +799,12 @@ TextureImporter:
       name: BackgroundGuys_26
       rect:
         serializedVersion: 2
-        x: 585
-        y: 266
-        width: 96
-        height: 118
+        x: 570
+        y: 261
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -821,12 +821,12 @@ TextureImporter:
       name: BackgroundGuys_27
       rect:
         serializedVersion: 2
-        x: 700
-        y: 266
-        width: 96
-        height: 118
+        x: 684
+        y: 261
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -843,12 +843,12 @@ TextureImporter:
       name: BackgroundGuys_28
       rect:
         serializedVersion: 2
-        x: 10
-        y: 135
-        width: 96
-        height: 118
+        x: 0
+        y: 131
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -865,12 +865,12 @@ TextureImporter:
       name: BackgroundGuys_29
       rect:
         serializedVersion: 2
-        x: 125
-        y: 135
-        width: 96
-        height: 118
+        x: 114
+        y: 131
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -887,12 +887,12 @@ TextureImporter:
       name: BackgroundGuys_30
       rect:
         serializedVersion: 2
-        x: 240
-        y: 135
-        width: 96
-        height: 118
+        x: 228
+        y: 131
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -909,12 +909,12 @@ TextureImporter:
       name: BackgroundGuys_31
       rect:
         serializedVersion: 2
-        x: 355
-        y: 135
-        width: 96
-        height: 118
+        x: 342
+        y: 131
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -931,12 +931,12 @@ TextureImporter:
       name: BackgroundGuys_32
       rect:
         serializedVersion: 2
-        x: 470
-        y: 135
-        width: 96
-        height: 118
+        x: 456
+        y: 131
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -953,12 +953,12 @@ TextureImporter:
       name: BackgroundGuys_33
       rect:
         serializedVersion: 2
-        x: 585
-        y: 135
-        width: 96
-        height: 118
+        x: 570
+        y: 131
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -975,12 +975,12 @@ TextureImporter:
       name: BackgroundGuys_34
       rect:
         serializedVersion: 2
-        x: 700
-        y: 135
-        width: 96
-        height: 118
+        x: 684
+        y: 131
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -997,12 +997,12 @@ TextureImporter:
       name: BackgroundGuys_35
       rect:
         serializedVersion: 2
-        x: 10
-        y: 4
-        width: 96
-        height: 118
+        x: 0
+        y: 1
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1019,12 +1019,12 @@ TextureImporter:
       name: BackgroundGuys_36
       rect:
         serializedVersion: 2
-        x: 122
-        y: 11
-        width: 96
-        height: 99
+        x: 114
+        y: 1
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1041,12 +1041,12 @@ TextureImporter:
       name: BackgroundGuys_37
       rect:
         serializedVersion: 2
-        x: 234
-        y: 9
-        width: 92
-        height: 96
+        x: 228
+        y: 1
+        width: 114
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1063,7 +1063,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e4410459498b14414bb2e6c77ce09f37
     internalID: 0
     vertices: []
     indices: 
@@ -1071,7 +1071,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":6.0},"gridSpriteSize":{"x":114.0,"y":130.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       BackgroundGuys_0: 418558906886083753
       BackgroundGuys_1: 5905052366796049449
