@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: f50a14c36e6b449aa8579cc4977405ff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8306527202501372572
+    second: SpikeGuy_0
+  - first:
+      213: -8316117792036863682
+    second: SpikeGuy_1
+  - first:
+      213: 5270335360656417494
+    second: SpikeGuy_2
+  - first:
+      213: 2213864630794452574
+    second: SpikeGuy_3
+  - first:
+      213: 4893870851880822151
+    second: SpikeGuy_4
+  - first:
+      213: -8942595362711205737
+    second: SpikeGuy_5
+  - first:
+      213: 6400379770552992721
+    second: SpikeGuy_6
+  - first:
+      213: -5471641439601208375
+    second: SpikeGuy_7
+  - first:
+      213: 1961726771980050772
+    second: SpikeGuy_8
+  - first:
+      213: -9032613292887996896
+    second: SpikeGuy_9
+  - first:
+      213: -1699378552410381518
+    second: SpikeGuy_10
+  - first:
+      213: -4315388768066123580
+    second: SpikeGuy_11
+  - first:
+      213: -8354996382205937818
+    second: SpikeGuy_12
+  - first:
+      213: -5319696760903251528
+    second: SpikeGuy_13
+  - first:
+      213: -5145145609727597988
+    second: SpikeGuy_14
+  - first:
+      213: 451636774651927987
+    second: SpikeGuy_15
+  - first:
+      213: 2853057756553608590
+    second: SpikeGuy_16
+  - first:
+      213: -3385582237212566760
+    second: SpikeGuy_17
+  - first:
+      213: 722049407806698509
+    second: SpikeGuy_18
+  - first:
+      213: 5440885296808368089
+    second: SpikeGuy_19
+  - first:
+      213: 7887765712723507447
+    second: SpikeGuy_20
+  - first:
+      213: -2704237566408728262
+    second: SpikeGuy_21
+  - first:
+      213: 701952048288886197
+    second: SpikeGuy_22
+  - first:
+      213: 4393692366590123597
+    second: SpikeGuy_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpikeGuy_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 9
+        width: 67
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9aa6361b76b64370800000000000000
+      internalID: 8306527202501372572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 8
+        width: 65
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e314657cde6379c80800000000000000
+      internalID: -8316117792036863682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_2
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 8
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d22b1b461ef32940800000000000000
+      internalID: 5270335360656417494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_3
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 9
+        width: 67
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5efd43f62a39be10800000000000000
+      internalID: 2213864630794452574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_4
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 9
+        width: 65
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785aef66c958ae340800000000000000
+      internalID: 4893870851880822151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_5
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 8
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7980b83c5e485e380800000000000000
+      internalID: -8942595362711205737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_6
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 8
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3486b9d77b2d850800000000000000
+      internalID: 6400379770552992721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_7
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 9
+        width: 65
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c35346c913d014b0800000000000000
+      internalID: -5471641439601208375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_8
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 9
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451ae3efa14793b10800000000000000
+      internalID: 1961726771980050772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_9
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 8
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02680f32116b5a280800000000000000
+      internalID: -9032613292887996896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_10
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 8
+        width: 65
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23369a4d5389a68e0800000000000000
+      internalID: -1699378552410381518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_11
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 9
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c845b387c8ac14c0800000000000000
+      internalID: -4315388768066123580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_12
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 9
+        width: 67
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667f0fa9e071d0c80800000000000000
+      internalID: -8354996382205937818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_13
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 8
+        width: 65
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9c09d1bf3ac26b0800000000000000
+      internalID: -5319696760903251528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_14
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 8
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52a68ef355c898b0800000000000000
+      internalID: -5145145609727597988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_15
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 9
+        width: 67
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd91a0f049844600800000000000000
+      internalID: 451636774651927987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_16
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 9
+        width: 65
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8dfc07d9e8189720800000000000000
+      internalID: 2853057756553608590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_17
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 9
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b921194eef301d0800000000000000
+      internalID: -3385582237212566760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_18
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 8
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04799e5c1c350a00800000000000000
+      internalID: 722049407806698509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_19
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 8
+        width: 65
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d798e3b958e18b40800000000000000
+      internalID: 5440885296808368089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_20
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 9
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8f362ef19f67d60800000000000000
+      internalID: 7887765712723507447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_21
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 9
+        width: 67
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31e0f1d24e987ad0800000000000000
+      internalID: -2704237566408728262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_22
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 8
+        width: 65
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bded973ba5ddb900800000000000000
+      internalID: 701952048288886197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpikeGuy_23
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 8
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e13fabde789fc30800000000000000
+      internalID: 4393692366590123597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SpikeGuy_0: 8306527202501372572
+      SpikeGuy_1: -8316117792036863682
+      SpikeGuy_10: -1699378552410381518
+      SpikeGuy_11: -4315388768066123580
+      SpikeGuy_12: -8354996382205937818
+      SpikeGuy_13: -5319696760903251528
+      SpikeGuy_14: -5145145609727597988
+      SpikeGuy_15: 451636774651927987
+      SpikeGuy_16: 2853057756553608590
+      SpikeGuy_17: -3385582237212566760
+      SpikeGuy_18: 722049407806698509
+      SpikeGuy_19: 5440885296808368089
+      SpikeGuy_2: 5270335360656417494
+      SpikeGuy_20: 7887765712723507447
+      SpikeGuy_21: -2704237566408728262
+      SpikeGuy_22: 701952048288886197
+      SpikeGuy_23: 4393692366590123597
+      SpikeGuy_3: 2213864630794452574
+      SpikeGuy_4: 4893870851880822151
+      SpikeGuy_5: -8942595362711205737
+      SpikeGuy_6: 6400379770552992721
+      SpikeGuy_7: -5471641439601208375
+      SpikeGuy_8: 1961726771980050772
+      SpikeGuy_9: -9032613292887996896
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

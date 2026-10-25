@@ -1,0 +1,834 @@
+fileFormatVersion: 2
+guid: 092ea9b6e63df4328a8afc5861d6bbfa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4870763685679584054
+    second: LittleGuySpriteSheet_0
+  - first:
+      213: -9023386530772726178
+    second: LittleGuySpriteSheet_1
+  - first:
+      213: 3695061181299069687
+    second: LittleGuySpriteSheet_2
+  - first:
+      213: 8770306118830432342
+    second: LittleGuySpriteSheet_3
+  - first:
+      213: 7970615031106827145
+    second: LittleGuySpriteSheet_4
+  - first:
+      213: 4362184628148214988
+    second: LittleGuySpriteSheet_5
+  - first:
+      213: -8239382633895340512
+    second: LittleGuySpriteSheet_6
+  - first:
+      213: 507404073819472995
+    second: LittleGuySpriteSheet_7
+  - first:
+      213: -6513185914406192402
+    second: LittleGuySpriteSheet_8
+  - first:
+      213: -5607976367730351793
+    second: LittleGuySpriteSheet_9
+  - first:
+      213: -6574309433841110501
+    second: LittleGuySpriteSheet_10
+  - first:
+      213: 3479031650342594122
+    second: LittleGuySpriteSheet_11
+  - first:
+      213: 5746189569862073654
+    second: LittleGuySpriteSheet_12
+  - first:
+      213: -2123636041122012620
+    second: LittleGuySpriteSheet_13
+  - first:
+      213: 8097082196432405790
+    second: LittleGuySpriteSheet_14
+  - first:
+      213: 3346459126807752051
+    second: LittleGuySpriteSheet_15
+  - first:
+      213: -3914087473547686917
+    second: LittleGuySpriteSheet_16
+  - first:
+      213: 3091163870900327279
+    second: LittleGuySpriteSheet_17
+  - first:
+      213: 8713945504466290621
+    second: LittleGuySpriteSheet_18
+  - first:
+      213: -1976235543861784300
+    second: LittleGuySpriteSheet_19
+  - first:
+      213: 3026588866597194048
+    second: LittleGuySpriteSheet_20
+  - first:
+      213: -2756613979954470796
+    second: LittleGuySpriteSheet_21
+  - first:
+      213: 6433353393778683231
+    second: LittleGuySpriteSheet_22
+  - first:
+      213: -5457871790270817089
+    second: LittleGuySpriteSheet_23
+  - first:
+      213: -1042861105651017340
+    second: LittleGuySpriteSheet_24
+  - first:
+      213: -7880204592101190197
+    second: LittleGuySpriteSheet_25
+  - first:
+      213: 1846854297590311056
+    second: LittleGuySpriteSheet_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 678
+        width: 77
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5133998, y: 0.54150814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633ddc504cd689340800000000000000
+      internalID: 4870763685679584054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 678
+        width: 73
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4999998, y: 0.48401642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e4f3a12cd76c280800000000000000
+      internalID: -9023386530772726178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 676
+        width: 73
+        height: 69
+      alignment: 9
+      pivot: {x: 0.49999958, y: 0.49401414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f29aae219e774330800000000000000
+      internalID: 3695061181299069687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 676
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5217978, y: 0.45640522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650a250b2f266b970800000000000000
+      internalID: 8770306118830432342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 676
+        width: 71
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4655064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983f28204205d9e60800000000000000
+      internalID: 7970615031106827145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 550
+        width: 81
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc9175bec7998c30800000000000000
+      internalID: 4362184628148214988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 551
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026552a0625d7ad80800000000000000
+      internalID: -8239382633895340512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 550
+        width: 87
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36488991159aa0700800000000000000
+      internalID: 507404073819472995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 551
+        width: 78
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeabdbf4be38c95a0800000000000000
+      internalID: -6513185914406192402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 419
+        width: 57
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5225241, y: 0.4177015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41a5a4b4377c22b0800000000000000
+      internalID: -5607976367730351793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 420
+        width: 61
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5631411, y: 0.47209102}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12b660f66c53c4a0800000000000000
+      internalID: -6574309433841110501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 420
+        width: 54
+        height: 82
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4060587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46e2017ad0084030800000000000000
+      internalID: 3479031650342594122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 420
+        width: 68
+        height: 69
+      alignment: 9
+      pivot: {x: 0.6510441, y: 0.481394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63dfeab18f09ebf40800000000000000
+      internalID: 5746189569862073654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 420
+        width: 60
+        height: 69
+      alignment: 9
+      pivot: {x: 0.54279584, y: 0.47209057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432a4b8a5445782e0800000000000000
+      internalID: -2123636041122012620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 290
+        width: 57
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e154e738b5d9e5070800000000000000
+      internalID: 8097082196432405790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 292
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d6db478d2017e20800000000000000
+      internalID: 3346459126807752051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 292
+        width: 59
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb42673e2e5ea9c0800000000000000
+      internalID: -3914087473547686917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 289
+        width: 68
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f631983b92506ea20800000000000000
+      internalID: 3091163870900327279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 291
+        width: 86
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db743d194472ee870800000000000000
+      internalID: 8713945504466290621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 162
+        width: 57
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4111e9f4e300394e0800000000000000
+      internalID: -1976235543861784300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 166
+        width: 54
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0498da2e98a900a20800000000000000
+      internalID: 3026588866597194048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 162
+        width: 66
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47020fdb03a8eb9d0800000000000000
+      internalID: -2756613979954470796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 41
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d6bb683dcd74950800000000000000
+      internalID: 6433353393778683231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 38
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc5847168eb144b0800000000000000
+      internalID: -5457871790270817089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 39
+        width: 80
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489999789530781f0800000000000000
+      internalID: -1042861105651017340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 36
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc51862bca3e3a290800000000000000
+      internalID: -7880204592101190197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LittleGuySpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 37
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09826c7d23851a910800000000000000
+      internalID: 1846854297590311056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e11a07842d09140f68e62740347d4b3a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":6.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      LittleGuySpriteSheet_0: 4870763685679584054
+      LittleGuySpriteSheet_1: -9023386530772726178
+      LittleGuySpriteSheet_10: -6574309433841110501
+      LittleGuySpriteSheet_11: 3479031650342594122
+      LittleGuySpriteSheet_12: 5746189569862073654
+      LittleGuySpriteSheet_13: -2123636041122012620
+      LittleGuySpriteSheet_14: 8097082196432405790
+      LittleGuySpriteSheet_15: 3346459126807752051
+      LittleGuySpriteSheet_16: -3914087473547686917
+      LittleGuySpriteSheet_17: 3091163870900327279
+      LittleGuySpriteSheet_18: 8713945504466290621
+      LittleGuySpriteSheet_19: -1976235543861784300
+      LittleGuySpriteSheet_2: 3695061181299069687
+      LittleGuySpriteSheet_20: 3026588866597194048
+      LittleGuySpriteSheet_21: -2756613979954470796
+      LittleGuySpriteSheet_22: 6433353393778683231
+      LittleGuySpriteSheet_23: -5457871790270817089
+      LittleGuySpriteSheet_24: -1042861105651017340
+      LittleGuySpriteSheet_25: -7880204592101190197
+      LittleGuySpriteSheet_26: 1846854297590311056
+      LittleGuySpriteSheet_3: 8770306118830432342
+      LittleGuySpriteSheet_4: 7970615031106827145
+      LittleGuySpriteSheet_5: 4362184628148214988
+      LittleGuySpriteSheet_6: -8239382633895340512
+      LittleGuySpriteSheet_7: 507404073819472995
+      LittleGuySpriteSheet_8: -6513185914406192402
+      LittleGuySpriteSheet_9: -5607976367730351793
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

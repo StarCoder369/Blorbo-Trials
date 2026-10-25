@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 5367be73397da4b44aa2182c8134c5b0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4099458965316077972
+    second: BlockMan_0
+  - first:
+      213: 4187248933396649440
+    second: BlockMan_1
+  - first:
+      213: 3396390201544464284
+    second: BlockMan_2
+  - first:
+      213: -1114503708680297575
+    second: BlockMan_3
+  - first:
+      213: 7188722325261401232
+    second: BlockMan_4
+  - first:
+      213: 3380112147105473345
+    second: BlockMan_5
+  - first:
+      213: 9165389020688206457
+    second: BlockMan_6
+  - first:
+      213: 8206298019974120253
+    second: BlockMan_7
+  - first:
+      213: -2579199511245834226
+    second: BlockMan_8
+  - first:
+      213: -4206092703373144719
+    second: BlockMan_9
+  - first:
+      213: 1978655977682742648
+    second: BlockMan_10
+  - first:
+      213: 7993021815839605109
+    second: BlockMan_11
+  - first:
+      213: -3435560911258436456
+    second: BlockMan_12
+  - first:
+      213: 542808044253398735
+    second: BlockMan_13
+  - first:
+      213: 1539295028201410172
+    second: BlockMan_14
+  - first:
+      213: -8090549762162082196
+    second: BlockMan_15
+  - first:
+      213: -4079980227693908313
+    second: BlockMan_16
+  - first:
+      213: 6153191682309548845
+    second: BlockMan_17
+  - first:
+      213: 7546481773979086215
+    second: BlockMan_18
+  - first:
+      213: 8342285556972393491
+    second: BlockMan_19
+  - first:
+      213: 1233581081691558126
+    second: BlockMan_20
+  - first:
+      213: -2836082072530026394
+    second: BlockMan_21
+  - first:
+      213: 4001929799127638685
+    second: BlockMan_22
+  - first:
+      213: -469844864881621702
+    second: BlockMan_23
+  - first:
+      213: -6537216357524883627
+    second: BlockMan_24
+  - first:
+      213: 6337377273709023068
+    second: BlockMan_25
+  - first:
+      213: -6765652461546406683
+    second: BlockMan_26
+  - first:
+      213: -7949997129926452351
+    second: BlockMan_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 112
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlockMan_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c667b097acbcb17c0800000000000000
+      internalID: -4099458965316077972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e59d3d48b81c1a30800000000000000
+      internalID: 4187248933396649440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97dca9b4e6622f20800000000000000
+      internalID: 3396390201544464284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_3
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993614728cc7880f0800000000000000
+      internalID: -1114503708680297575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_4
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c302a0ed873c360800000000000000
+      internalID: 7188722325261401232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_5
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1436435d61298ee20800000000000000
+      internalID: 3380112147105473345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_6
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ac26601c0023f70800000000000000
+      internalID: 9165389020688206457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_7
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d338c810290a2e170800000000000000
+      internalID: 8206298019974120253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_8
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08b45fa5b7d43cd0800000000000000
+      internalID: -2579199511245834226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_9
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17dc41b98f4f0a5c0800000000000000
+      internalID: -4206092703373144719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_10
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87dab7ad029957b10800000000000000
+      internalID: 1978655977682742648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_11
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571411f1efaecee60800000000000000
+      internalID: 7993021815839605109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_12
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c3938bd8f6250d0800000000000000
+      internalID: -3435560911258436456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_13
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6c2f25a01788700800000000000000
+      internalID: 542808044253398735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_14
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e48703cacac5510800000000000000
+      internalID: 1539295028201410172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_15
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e35bc5bd798bf80800000000000000
+      internalID: -8090549762162082196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_16
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aeefad799ff067c0800000000000000
+      internalID: -4079980227693908313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_17
+      rect:
+        serializedVersion: 2
+        x: 2186
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2be2faeb37846550800000000000000
+      internalID: 6153191682309548845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_18
+      rect:
+        serializedVersion: 2
+        x: 2314
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78dabf1c03d7ab860800000000000000
+      internalID: 7546481773979086215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_19
+      rect:
+        serializedVersion: 2
+        x: 2442
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3141636c380c5c370800000000000000
+      internalID: 8342285556972393491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_20
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee01edf357f8e1110800000000000000
+      internalID: 1233581081691558126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_21
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6608ef8916634a8d0800000000000000
+      internalID: -2836082072530026394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_22
+      rect:
+        serializedVersion: 2
+        x: 2826
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92ad0df2f5b98730800000000000000
+      internalID: 4001929799127638685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_23
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a358031b596ca79f0800000000000000
+      internalID: -469844864881621702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_24
+      rect:
+        serializedVersion: 2
+        x: 3082
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5573bd5cb542745a0800000000000000
+      internalID: -6537216357524883627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_25
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f4f07bd03e2f750800000000000000
+      internalID: 6337377273709023068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_26
+      rect:
+        serializedVersion: 2
+        x: 3338
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec77c3aee29b12a0800000000000000
+      internalID: -6765652461546406683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlockMan_27
+      rect:
+        serializedVersion: 2
+        x: 3466
+        y: 10
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bdb513bbfeba190800000000000000
+      internalID: -7949997129926452351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BlockMan_0: -4099458965316077972
+      BlockMan_1: 4187248933396649440
+      BlockMan_10: 1978655977682742648
+      BlockMan_11: 7993021815839605109
+      BlockMan_12: -3435560911258436456
+      BlockMan_13: 542808044253398735
+      BlockMan_14: 1539295028201410172
+      BlockMan_15: -8090549762162082196
+      BlockMan_16: -4079980227693908313
+      BlockMan_17: 6153191682309548845
+      BlockMan_18: 7546481773979086215
+      BlockMan_19: 8342285556972393491
+      BlockMan_2: 3396390201544464284
+      BlockMan_20: 1233581081691558126
+      BlockMan_21: -2836082072530026394
+      BlockMan_22: 4001929799127638685
+      BlockMan_23: -469844864881621702
+      BlockMan_24: -6537216357524883627
+      BlockMan_25: 6337377273709023068
+      BlockMan_26: -6765652461546406683
+      BlockMan_27: -7949997129926452351
+      BlockMan_3: -1114503708680297575
+      BlockMan_4: 7188722325261401232
+      BlockMan_5: 3380112147105473345
+      BlockMan_6: 9165389020688206457
+      BlockMan_7: 8206298019974120253
+      BlockMan_8: -2579199511245834226
+      BlockMan_9: -4206092703373144719
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
