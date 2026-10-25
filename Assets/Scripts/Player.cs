@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     public InputActionReference moveAction;
     public InputActionReference jumpAction;
     public InputActionReference activateAction;
+    public InputActionReference resetAction;
 
     [Header("Movement")]
     public float moveSpeed = 8f;
@@ -82,6 +83,12 @@ public class Player : MonoBehaviour
             activateAction.action.Enable();
             activateAction.action.performed += OnActivate;
         }
+
+        if (resetAction != null)
+        {
+            resetAction.action.Enable();
+            resetAction.action.performed += OnReset;
+        }
     }
 
     void OnDisable()
@@ -111,6 +118,11 @@ public class Player : MonoBehaviour
         rb.freezeRotation = true;
     }
 
+    void Start()
+    {
+        transform.position = levelManager.playerSpawnPoints[levelManager.currentLevel].position;
+    }
+
     void Update()
     {
         if (moveAction != null)
@@ -137,12 +149,13 @@ public class Player : MonoBehaviour
             activateTimer -= Time.deltaTime;
         }
 
-        if (rb.linearVelocityX > 0 || rb.linearVelocityY > 0 && !levelManager.timerStarted && !levelManager.gameEnded)
-        {
-
-        }
-
         UpdateFootsteps();
+    }
+
+    void OnReset(InputAction.CallbackContext context)
+    {
+        transform.position = levelManager.playerSpawnPoints[levelManager.currentLevel].position;
+        rb.linearVelocity = Vector2.zero;
     }
 
     void UpdateFootsteps()
@@ -179,6 +192,7 @@ public class Player : MonoBehaviour
             {
                 jumpSound.Play();
             }
+            StartTimer();
         }
     }
 
@@ -237,6 +251,11 @@ public class Player : MonoBehaviour
         else
         {
             rb.gravityScale = gravityMultiplier;
+        }
+
+        if (moveInput != 0)
+        {
+            StartTimer();
         }
     }
 
@@ -379,6 +398,14 @@ public class Player : MonoBehaviour
                     wallBounceTimer = wallBounceControlLock;
                 }
             }
+        }
+    }
+
+    void StartTimer()
+    {
+        if (!levelManager.timerStarted && !levelManager.gameEnded)
+        {
+            levelManager.timerStarted = true;
         }
     }
 }

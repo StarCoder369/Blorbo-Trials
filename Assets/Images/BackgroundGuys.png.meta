@@ -1,0 +1,1118 @@
+fileFormatVersion: 2
+guid: 29ed47472d31f4d4897cb3a1cf129379
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 418558906886083753
+    second: BackgroundGuys_0
+  - first:
+      213: 5905052366796049449
+    second: BackgroundGuys_1
+  - first:
+      213: -8648852747860120494
+    second: BackgroundGuys_2
+  - first:
+      213: 896726194941540923
+    second: BackgroundGuys_3
+  - first:
+      213: 8900593063110177465
+    second: BackgroundGuys_4
+  - first:
+      213: -9216628411642899444
+    second: BackgroundGuys_5
+  - first:
+      213: 458533487874288808
+    second: BackgroundGuys_6
+  - first:
+      213: -2466861728503639087
+    second: BackgroundGuys_7
+  - first:
+      213: 4487947409414896630
+    second: BackgroundGuys_8
+  - first:
+      213: -5404917147797991271
+    second: BackgroundGuys_9
+  - first:
+      213: 6241419341116840949
+    second: BackgroundGuys_10
+  - first:
+      213: -4414045094287072339
+    second: BackgroundGuys_11
+  - first:
+      213: 6668852019238400333
+    second: BackgroundGuys_12
+  - first:
+      213: 4110908962301908007
+    second: BackgroundGuys_13
+  - first:
+      213: 4779647094768174210
+    second: BackgroundGuys_14
+  - first:
+      213: -6473273172235548394
+    second: BackgroundGuys_15
+  - first:
+      213: 3257457009335669595
+    second: BackgroundGuys_16
+  - first:
+      213: 6243475774152545869
+    second: BackgroundGuys_17
+  - first:
+      213: 1482680526032303804
+    second: BackgroundGuys_18
+  - first:
+      213: 3327316068616052416
+    second: BackgroundGuys_19
+  - first:
+      213: 3551022756726873618
+    second: BackgroundGuys_20
+  - first:
+      213: 4847155212590679877
+    second: BackgroundGuys_21
+  - first:
+      213: 5372813664980966791
+    second: BackgroundGuys_22
+  - first:
+      213: 2065483126664827852
+    second: BackgroundGuys_23
+  - first:
+      213: -6014112843032360770
+    second: BackgroundGuys_24
+  - first:
+      213: 3549368724745341318
+    second: BackgroundGuys_25
+  - first:
+      213: -1883182282279733595
+    second: BackgroundGuys_26
+  - first:
+      213: 2160639664626588450
+    second: BackgroundGuys_27
+  - first:
+      213: -4355348675691603621
+    second: BackgroundGuys_28
+  - first:
+      213: -4003576983965938824
+    second: BackgroundGuys_29
+  - first:
+      213: 4120228995308897642
+    second: BackgroundGuys_30
+  - first:
+      213: 8346134870211562502
+    second: BackgroundGuys_31
+  - first:
+      213: 8788725693316759962
+    second: BackgroundGuys_32
+  - first:
+      213: -8407223841318440498
+    second: BackgroundGuys_33
+  - first:
+      213: -1408276156849458716
+    second: BackgroundGuys_34
+  - first:
+      213: 3711810997279153575
+    second: BackgroundGuys_35
+  - first:
+      213: 542116081765467374
+    second: BackgroundGuys_36
+  - first:
+      213: -2687765714191319709
+    second: BackgroundGuys_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BackgroundGuys_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 659
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a45582bb150fc500800000000000000
+      internalID: 418558906886083753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 659
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c45fe57d5f2f150800000000000000
+      internalID: 5905052366796049449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 659
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ce229df3a19f780800000000000000
+      internalID: -8648852747860120494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_3
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 659
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a374629bfc17c00800000000000000
+      internalID: 896726194941540923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_4
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 659
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2fcf8cb32458b70800000000000000
+      internalID: 8900593063110177465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_5
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 659
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0490499a45f71080800000000000000
+      internalID: -9216628411642899444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_6
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 659
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac2e5e17c90d5600800000000000000
+      internalID: 458533487874288808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 528
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3d882f352f3cdd0800000000000000
+      internalID: -2466861728503639087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_8
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 528
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb3fc40464684e30800000000000000
+      internalID: 4487947409414896630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_9
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 528
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99055159d70edf4b0800000000000000
+      internalID: -5404917147797991271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_10
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 528
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb958182d9fd9650800000000000000
+      internalID: 6241419341116840949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_11
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 528
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3a6749f592eb2c0800000000000000
+      internalID: -4414045094287072339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_12
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 528
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41f95214958c8c50800000000000000
+      internalID: 6668852019238400333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_13
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 528
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72499f1bbe1ec0930800000000000000
+      internalID: 4110908962301908007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 397
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284826385b7b45240800000000000000
+      internalID: 4779647094768174210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_15
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 397
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61985d2c8505a26a0800000000000000
+      internalID: -6473273172235548394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_16
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 397
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b531f8824efc43d20800000000000000
+      internalID: 3257457009335669595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_17
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 397
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d469e12232845a650800000000000000
+      internalID: 6243475774152545869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_18
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 397
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb67b85351a839410800000000000000
+      internalID: 1482680526032303804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_19
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 397
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce1f45e5500d2e20800000000000000
+      internalID: 3327316068616052416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_20
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 397
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e98041264c74130800000000000000
+      internalID: 3551022756726873618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 266
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54786a90cfd844340800000000000000
+      internalID: 4847155212590679877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_22
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 266
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d1e89df81109a40800000000000000
+      internalID: 5372813664980966791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_23
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 266
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc39b66d5f11aac10800000000000000
+      internalID: 2065483126664827852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_24
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 266
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb801ffbb34998ca0800000000000000
+      internalID: -6014112843032360770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_25
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 266
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689c35fbc04e14130800000000000000
+      internalID: 3549368724745341318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_26
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 266
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6386911b79dd5e0800000000000000
+      internalID: -1883182282279733595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_27
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 266
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bdfa1d3522cfd10800000000000000
+      internalID: 2160639664626588450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 135
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b591f608471be83c0800000000000000
+      internalID: -4355348675691603621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_29
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 135
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87bc7c7e1ff6078c0800000000000000
+      internalID: -4003576983965938824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_30
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 135
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65c6aaf07efd2930800000000000000
+      internalID: 4120228995308897642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_31
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 135
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c067ad17d63d370800000000000000
+      internalID: 8346134870211562502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_32
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 135
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a918e721473d7f970800000000000000
+      internalID: 8788725693316759962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_33
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 135
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1f40fa57a835b80800000000000000
+      internalID: -8407223841318440498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_34
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 135
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1f555fb4cc47ce0800000000000000
+      internalID: -1408276156849458716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_35
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 4
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad563e9f60038330800000000000000
+      internalID: 3711810997279153575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_36
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 11
+        width: 96
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee448a044bbf58700800000000000000
+      internalID: 542116081765467374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundGuys_37
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 9
+        width: 92
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36df626c25323bad0800000000000000
+      internalID: -2687765714191319709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BackgroundGuys_0: 418558906886083753
+      BackgroundGuys_1: 5905052366796049449
+      BackgroundGuys_10: 6241419341116840949
+      BackgroundGuys_11: -4414045094287072339
+      BackgroundGuys_12: 6668852019238400333
+      BackgroundGuys_13: 4110908962301908007
+      BackgroundGuys_14: 4779647094768174210
+      BackgroundGuys_15: -6473273172235548394
+      BackgroundGuys_16: 3257457009335669595
+      BackgroundGuys_17: 6243475774152545869
+      BackgroundGuys_18: 1482680526032303804
+      BackgroundGuys_19: 3327316068616052416
+      BackgroundGuys_2: -8648852747860120494
+      BackgroundGuys_20: 3551022756726873618
+      BackgroundGuys_21: 4847155212590679877
+      BackgroundGuys_22: 5372813664980966791
+      BackgroundGuys_23: 2065483126664827852
+      BackgroundGuys_24: -6014112843032360770
+      BackgroundGuys_25: 3549368724745341318
+      BackgroundGuys_26: -1883182282279733595
+      BackgroundGuys_27: 2160639664626588450
+      BackgroundGuys_28: -4355348675691603621
+      BackgroundGuys_29: -4003576983965938824
+      BackgroundGuys_3: 896726194941540923
+      BackgroundGuys_30: 4120228995308897642
+      BackgroundGuys_31: 8346134870211562502
+      BackgroundGuys_32: 8788725693316759962
+      BackgroundGuys_33: -8407223841318440498
+      BackgroundGuys_34: -1408276156849458716
+      BackgroundGuys_35: 3711810997279153575
+      BackgroundGuys_36: 542116081765467374
+      BackgroundGuys_37: -2687765714191319709
+      BackgroundGuys_4: 8900593063110177465
+      BackgroundGuys_5: -9216628411642899444
+      BackgroundGuys_6: 458533487874288808
+      BackgroundGuys_7: -2466861728503639087
+      BackgroundGuys_8: 4487947409414896630
+      BackgroundGuys_9: -5404917147797991271
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

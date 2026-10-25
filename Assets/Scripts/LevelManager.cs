@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager Instance { get; private set; }
+
+    public InputActionReference pauseInput;
 
     public List<Transform> playerSpawnPoints;
     public int currentLevel;
@@ -18,9 +21,11 @@ public class LevelManager : MonoBehaviour
     public TMP_Text deathsTxt;
     public TMP_Text endScreenTimeTxt;
     public TMP_Text endScreenDeathTxt;
+    public TMP_Text endScreenScoreTxt;
     public float timeElapsed;
     public int deaths;
     public GameObject endScreen;
+    public GameObject pauseScreen;
     public bool timerStarted = false;
     public bool gameEnded = false;
 
@@ -35,6 +40,24 @@ public class LevelManager : MonoBehaviour
         Instance = this;
     }
 
+    void OnEnable()
+    {
+        if (pauseInput != null)
+        {
+            pauseInput.action.Enable();
+            pauseInput.action.performed += TogglePauseScreen;
+        }
+    }
+
+    void OnDisable()
+    {
+        if (pauseInput != null)
+        {
+            pauseInput.action.performed -= TogglePauseScreen;
+            pauseInput.action.Disable();
+        }
+    }
+
     void Start()
     {
         DisableAllCameras();
@@ -42,6 +65,7 @@ public class LevelManager : MonoBehaviour
         UpdateTimerText();
         UpdateDeathsText();
         UpdateEndScreenText();
+        Time.timeScale = 1;
     }
 
     void Update()
@@ -53,6 +77,40 @@ public class LevelManager : MonoBehaviour
             timeElapsed += Time.deltaTime;
             UpdateTimerText();
         }
+    }
+
+    void TogglePauseScreen(InputAction.CallbackContext context)
+    {
+        if (gameEnded)
+        {
+            return;
+        }
+
+        if (pauseScreen.activeSelf)
+        {
+            DisablePauseScreen();
+        }
+        else
+        {
+            EnablePauseScreen();
+        }
+    }
+
+    public void EnablePauseScreen()
+    {
+        if (gameEnded)
+        {
+            return;
+        }
+
+        pauseScreen.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
+    public void DisablePauseScreen()
+    {
+        pauseScreen.SetActive(false);
+        Time.timeScale = 1f;
     }
 
     void UpdateTimerText()
@@ -71,6 +129,8 @@ public class LevelManager : MonoBehaviour
         TimeSpan time = TimeSpan.FromSeconds(timeElapsed);
         endScreenTimeTxt.text = $"Your Time: {(int)time.TotalMinutes}:{time.Seconds:D2}.{time.Milliseconds:D3}";
         endScreenDeathTxt.text = $"Death Count: {deaths}";
+        // Need to add +1 to avoid division by zero, or 0 and 1 death being the same.
+        endScreenScoreTxt.text = $"Final Score: {time.TotalSeconds / (deaths + 1):F2}";
     }
 
     public void AddDeath()
@@ -83,7 +143,7 @@ public class LevelManager : MonoBehaviour
     {
         endScreen.SetActive(true);
         UpdateEndScreenText();
-        Time.timeScale = 0;
+        Time.timeScale = 0f;
     }
 
     public void ResetTimer()
@@ -115,6 +175,7 @@ public class LevelManager : MonoBehaviour
 
     public void CompleteGame()
     {
+        gameEnded = true;
         ShowEndScreen();
     }
 }
