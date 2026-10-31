@@ -1,6 +1,6 @@
 # Blorbo's Trials
 
-## Made for Jame Gam Jame Game
+## Made for Jame Gam Game Jam
 
 Link to game jam: https://itch.io/jam/jame-gam-game-jam
 
